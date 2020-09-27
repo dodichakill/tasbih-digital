@@ -25,10 +25,11 @@
                                 <h1 className="Count">{this.state.count}</h1>
                             </div>
                             
-                            
-                            <button onClick={this.kurangClick} className="Kurang"> <span >-</span> </button>
-                            <button onClick={this.tambahClick} className="Tambah"> <span >+</span>  </button>
-                            <button onClick={this.deleteClick} className="Hapus"><span >C</span>  </button>
+                            <div className="Box">
+                             <button onClick={this.kurangClick} className="Kurang"> <span >-</span> </button>
+                             <button onClick={this.tambahClick} className="Tambah"> <span >+</span>  </button>
+                             <button onClick={this.deleteClick} className="Hapus"><span >C</span>  </button>
+                            </div>
                             </center>
                         </div>
                     );
