@@ -69,13 +69,25 @@ button:hover{
 .Tambah{
     background-color: #3CAEA3;
 }
+.Tambah:hover{
+    background-color: #459F40;
+}
+
 .Kurang{
     background-color: #F6D55C
+    ;
+}
+.Kurang:hover{
+    background-color: #FFD839
     ;
 }
 
 .Hapus{
     background-color: #ED553B
+    ;
+}
+.Hapus:hover{
+    background-color: #DD1F1F
     ;
 }
 footer{
