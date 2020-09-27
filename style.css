@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #69afe7;
+}
+.judul{
+    border: 2px solid rgba(255, 255, 255, 0.966);
+    text-align: center;
+    margin: 20px;
+    background: #20639B;
+    letter-spacing: 0.2em;
+    padding: 10px;
+    border-radius: 1em;
+    color: #F6D55C;
+}
+.container{
+    width: 400px;
+    overflow: hidden;
+    margin: 10px auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #173F5F;
+    border-radius: 2em 0px;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+
+}
+
+button{
+    border: 2px solid rgba(255, 255, 255, 0.966);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 2em;
+   font-size: 40px;
+   cursor: pointer;
+   box-shadow: 0 0 1px 4px rgba(53, 51, 49, 0.212);
+   margin-bottom: 24px;
+   color: aliceblue;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+.Count-container{
+    width: 200px;
+    height: 150px;
+    margin: 60px;
+    background: #F6D55C;
+    display: flex;
+    color: #3CAEA3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.966);
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+.Count{
+    text-align: center;
+    font-size: 65px;
+}
+.Tambah{
+    background-color: #3CAEA3;
+}
+.Kurang{
+    background-color: #F6D55C
+    ;
+}
+
+.Hapus{
+    background-color: #ED553B
+    ;
+}
+footer{
+    width: 100%;
+    background-color:  #20639B;
+    text-align: center;
+    padding: 12px;
+    border-top:  2px solid rgba(221, 212, 212, 0.966);
+    color: aliceblue;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
