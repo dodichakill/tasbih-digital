@@ -17,7 +17,7 @@ body{
     color: #F6D55C;
 }
 .container{
-    width: 400px;
+    width: 360px;
     overflow: hidden;
     margin: 10px auto;
     position: absolute;
@@ -46,6 +46,7 @@ button{
 
 button:hover{
     transform: scale(1.1);
+    outline: none;
 }
 .Count-container{
     width: 200px;
